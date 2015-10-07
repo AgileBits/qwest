@@ -116,7 +116,7 @@ qwest.get('/somepage')
 Request limit
 -------------
 
-One of the great qwest's functionnalities is the request limitat. It avoids browser freezes and server overloads by freeing bandwidth and memory resources when you have a whole bunch of requests to do at the same time (when you load a gallery, per example). You just need to set the request limit and when the count is reached qwest will stock all further requests and start them when a slot is free.
+One of the great qwest's functionalities is the request limitation. It avoids browser freezes and server overloads by freeing bandwidth and memory resources when you have a whole bunch of requests to do at the same time (when you load a gallery, per example). You just need to set the request limit and when the count is reached qwest will stock all further requests and start them when a slot is free.
 
 Let's say we have a gallery with a lot of images to load. We don't want the browser to download all of that by himself to have a faster loading, and why not to apply some effects on the images when they are loaded? Let's see how we can do that.
 
